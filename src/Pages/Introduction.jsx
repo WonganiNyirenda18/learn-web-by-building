@@ -1,7 +1,14 @@
 export default function Introduction() {
     return (
         <div>
-            <setion>
+            <setion
+                className="relative h-[70vh] bg-cover flex items-center"
+                style={{
+                    backgroundImage: "url('/images/background.jpg')"
+                }}
+            >
+
+                <div className="absolute inset-0 bg-black/60"></div>
                 <div>
                     <h1>The Nature Of The Web</h1>
                 </div>
