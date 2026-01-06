@@ -2,15 +2,20 @@ export default function Header() {
     return (
         <header>
             <div>
-                <div>
-                    <p>logo</p>
-                </div>
                 <nav>
                     <ul>
-                        <li>Introduction</li>
-                        <li>Architecture</li>
-                        <li>Accessibility</li>
-                        <li>API's</li>
+                        <li>
+                            <a href="#">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#">Architecture</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessibility</a>
+                        </li>
+                        <li>
+                            <a href="#">API's</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
