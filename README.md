@@ -1,16 +1,53 @@
-# React + Vite
+## INF 212 — The Nature of the Web 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+INF 212 is an educational web project designed to teach students the foundations, evolution, design principles, and development practices of the World Wide Web.
 
-Currently, two official plugins are available:
+## This project is both:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A learning platform for students studying web technologies
 
-## React Compiler
+A practical course project that encourages hands-on understanding of how the web works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Course Purpose
 
-## Expanding the ESLint configuration
+The goal of INF 212 is to help learners move beyond using the web to understanding how the web is structured, designed, and built.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Students will explore:
+
+What the web really is (beyond “websites”)
+
+How it evolved from simple documents to complex applications
+
+How information is structured and organized
+
+Why accessibility, usability, and architecture matter
+
+How modern web technologies fit together
+
+This course bridges theory, design, and development.
+
+## What This Project Teaches
+1. The Nature of the Web
+
+2. Genesis & Evolution of the Web
+
+3. Information Architecture (IA)
+
+4. Digital Accessibility 
+
+5. Design & Development Fundamentals
+
+
+## Instructor & Project Lead
+
+Wongani Nyirenda
+
+Frontend Developer
+
+Digital Marketer
+
+Founder of Tech Addicts
+
+University of Malawi (UNIMA) — BSc Information Systems
+
+“Only through a strong understanding of core web technologies can developers grow with the rapidly changing digital world.”
