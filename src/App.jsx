@@ -5,7 +5,6 @@ import Introduction from "./Pages/Introduction";
 function App() {
   return (
     <div>
-      <Header />
       <Introduction />
     </div>
   );
