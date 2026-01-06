@@ -4,8 +4,7 @@ export default function Introduction() {
             <section
                 className="relative h-[70vh] bg-cover bg-center flex items-center justify-center p-8"
                 style={{
-                    // Using a placeholder image that matches the "code/nature" vibe since local file might not exist
-                    backgroundImage: "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop')"
+                    backgroundImage: "url('/background.jpg')"
                 }}
             >
                 <div className="absolute inset-0 bg-[#2a1b18]/80 mix-blend-multiply"></div>
