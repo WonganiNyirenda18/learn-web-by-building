@@ -2,6 +2,9 @@ export default function Header() {
     return (
         <header>
             <div>
+                <div>
+                    <p>logo</p>
+                </div>
                 <nav>
                     <ul>
                         <li>Introduction</li>
