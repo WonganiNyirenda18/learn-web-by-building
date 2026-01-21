@@ -22,6 +22,13 @@ export default function Hero() {
                     </button>
                 </div>
 
+                <div>
+                    <img
+                        src={hero}
+                        alt="web architecture"
+                    />
+                </div>
+
             </div>
 
         </section>
