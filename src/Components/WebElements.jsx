@@ -26,7 +26,16 @@ export default function WebElements() {
                     <h2 className="text-2xl font-bold text-gray-500 mb-4">
                         Elements of the Web
                     </h2>
+                </div>
 
+                <div>
+                    {elements.map((element) => (
+                        <div>
+                            <div> {element.number} </div>
+                            <h2> {element.title} </h2>
+                            <p> {element.desc} </p>
+                        </div>
+                    ))}
                 </div>
 
             </div>
