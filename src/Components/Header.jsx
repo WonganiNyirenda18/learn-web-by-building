@@ -2,7 +2,14 @@ import Logo from "../Assets/Logo2.png"
 import { useState } from 'react';
 
 export default function Header() {
+
+    const [active, setActive] = useState("Home")
     const [isOpen, setIsOpen] = useState(false);
+
+    const linkClasses = (link) =>
+        active === link
+            ? "text-gray-900 font-medium border-b-2 border-black pb-1"
+            : "text-gray-500 font-medium hover:text-gray-900 transition-colors";
 
     return (
         <header className="fixed w-full top-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
