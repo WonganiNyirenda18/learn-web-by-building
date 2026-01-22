@@ -31,10 +31,12 @@ export default function WebElements() {
                 <div className="text-center gap-12">
                     {elements.map((element) => (
                         <div className="flex flex-col items-center group">
+
                             <div className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center font-bold text-xl mb-6 shadow-lg group-hover:scale-110 transition-transform">
                                 {element.number} </div>
-                            <h2> {element.title} </h2>
-                            <p> {element.desc} </p>
+                            <h2 className="text-xl font-bold text-gray-500 mb-3"> {element.title} </h2>
+                            <p className="text-gray-500 text-sm max-w-[250px] leading-relaxed"> {element.desc} </p>
+
                         </div>
                     ))}
                 </div>
