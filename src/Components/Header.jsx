@@ -27,11 +27,18 @@ export default function Header() {
                 </div>
 
 
-
                 <nav className="hidden md:flex items-center gap-12">
-                    <a href="#" className="text-gray-900 font-medium hover:text-blue-600 transition-colors border-b-2 border-black pb-1">Home</a>
-                    <a href="#" className="text-gray-500 font-medium hover:text-blue-600 transition-colors">About</a>
-                    <a href="#" className="text-gray-500 font-medium hover:text-blue-600 transition-colors">Contact</a>
+                    <button onClick={() => setActive("Home")} className={linkClasses("Home")}>
+                        Home
+                    </button>
+
+                    <button onClick={() => setActive("About")} className={linkClasses("About")}>
+                        About
+                    </button>
+
+                    <button onClick={() => setActive("Contact")} className={linkClasses("Contact")}>
+                        Contact
+                    </button>
                 </nav>
 
 
