@@ -1,3 +1,5 @@
+import Hero1 from "../assets/hero.jpg";
+
 export default function Hero() {
     return (
         <section className="bg-[#EBF7F8] min-h-[600px] flex items-center pt-20">
@@ -22,12 +24,14 @@ export default function Hero() {
                     </button>
                 </div>
 
-                <div>
+                <div className="relative h-[500px] w-full bg-black overflow-hidden rounded-lg">
                     <img
-                        src={hero}
-                        alt="web architecture"
+                        src={Hero1}
+                        alt="Abstract Web Network"
+                        className="w-full h-full object-cover opacity-80"
                     />
                 </div>
+
 
             </div>
 
