@@ -11,3 +11,7 @@
         @apply text-gray-800 antialiased bg-white;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
