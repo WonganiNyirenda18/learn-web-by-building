@@ -28,7 +28,7 @@ export default function WebElements() {
                     </h2>
                 </div>
 
-                <div className="text-center gap-12">
+                <div className="grid md:grid-cols-3 text-center gap-12">
                     {elements.map((element) => (
                         <div className="flex flex-col items-center group">
 
