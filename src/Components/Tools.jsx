@@ -32,6 +32,24 @@ export default function Tools() {
 
                 </div>
 
+                <div className="bg-[#EBF7F8] rounded-2xl overflow-hidden border border-gray-100 shadow-sm w-72">
+
+                    <div className="h-40 w-full overflow-hidden">
+                        <img
+                            src={reactCardImage}
+                            alt="React"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+
+                    <div className="p-4">
+                        <button className="bg-black text-white text-sm px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform">
+                            Learn React
+                        </button>
+                    </div>
+
+                </div>
+
             </div>
         </section>
     );
