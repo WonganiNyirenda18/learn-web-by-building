@@ -12,6 +12,11 @@ export default function Tools() {
                     </ul>
                 </div>
 
+                <div>
+                    <h2>First Tool</h2>
+                    <button>Learn React</button>
+                </div>
+
             </div>
         </section>
     );
