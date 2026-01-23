@@ -1,4 +1,5 @@
 import reactCardImage from "../Assets/react.jpg";
+import cssCardImage from "../Assets/css.jpg"
 
 export default function Tools() {
     return (
@@ -36,7 +37,7 @@ export default function Tools() {
 
                     <div className="h-40 w-full overflow-hidden">
                         <img
-                            src={reactCardImage}
+                            src={cssCardImage}
                             alt="React"
                             className="w-full h-full object-cover"
                         />
@@ -44,7 +45,7 @@ export default function Tools() {
 
                     <div className="p-4">
                         <button className="bg-black text-white text-sm px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform">
-                            Learn React
+                            Learn CSS
                         </button>
                     </div>
 
