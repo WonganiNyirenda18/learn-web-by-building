@@ -1,3 +1,5 @@
+import reactCardImage from "../Assets/react.jpg";
+
 export default function Tools() {
     return (
         <section className="py-12 bg-white">
@@ -12,27 +14,23 @@ export default function Tools() {
                     </ul>
                 </div>
 
-                {/* React Card */}
-                <div className="bg-[#F0FDF4] p-6 rounded-2xl relative group overflow-hidden border border-gray-100 shadow-sm">
+                <div className="bg-[#EBF7F8] rounded-2xl overflow-hidden border border-gray-100 shadow-sm w-72">
 
-                    {/* Image layer (NOT background image) */}
-                    <div className="absolute inset-0 z-0">
+                    <div className="h-40 w-full overflow-hidden">
                         <img
                             src={reactCardImage}
                             alt="React"
-                            className="w-full h-full object-cover opacity-50"
+                            className="w-full h-full object-cover"
                         />
                     </div>
 
-                    {/* Content layer */}
-                    <div className="relative z-10 pt-32">
-                        <button className="bg-black text-white text-xs px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform">
+                    <div className="p-4">
+                        <button className="bg-black text-white text-sm px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform">
                             Learn React
                         </button>
                     </div>
 
                 </div>
-
 
             </div>
         </section>
