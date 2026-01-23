@@ -12,10 +12,27 @@ export default function Tools() {
                     </ul>
                 </div>
 
-                <div>
-                    <h2>First Tool</h2>
-                    <button>Learn React</button>
+                {/* React Card */}
+                <div className="bg-[#F0FDF4] p-6 rounded-2xl relative group overflow-hidden border border-gray-100 shadow-sm">
+
+                    {/* Image layer (NOT background image) */}
+                    <div className="absolute inset-0 z-0">
+                        <img
+                            src={reactCardImage}
+                            alt="React"
+                            className="w-full h-full object-cover opacity-50"
+                        />
+                    </div>
+
+                    {/* Content layer */}
+                    <div className="relative z-10 pt-32">
+                        <button className="bg-black text-white text-xs px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform">
+                            Learn React
+                        </button>
+                    </div>
+
                 </div>
+
 
             </div>
         </section>
