@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import WebElements from "./Components/WebElements";
+import Tools from "./Components/Tools";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <WebElements />
+      <Tools />
 
     </div>
   );
