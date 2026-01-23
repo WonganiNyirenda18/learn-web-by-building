@@ -15,7 +15,7 @@ export default function Tools() {
                     </ul>
                 </div>
 
-                <div className="bg-[#EBF7F8] rounded-2xl overflow-hidden border border-gray-100 shadow-sm w-72">
+                <div className="bg-[#EBF7F8] rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
 
                     <div className="h-40 w-full overflow-hidden">
                         <img
@@ -33,7 +33,7 @@ export default function Tools() {
 
                 </div>
 
-                <div className="bg-[#EBF7F8] rounded-2xl overflow-hidden border border-gray-100 shadow-sm w-72">
+                <div className="bg-[#EBF7F8] rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
 
                     <div className="h-40 w-full overflow-hidden">
                         <img
