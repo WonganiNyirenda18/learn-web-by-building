@@ -38,12 +38,11 @@ export default function Tools() {
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-6">
 
                 {cards.map((card) => (
-
                     <div
                         key={card.id}
                         className="rounded-2xl bg-[#EBF7F8] overflow-hidden border border-gray-100 shadow-sm flex flex-col"
                     >
-                        {/* TEXT CARD */}
+
                         {card.type === "text" && (
                             <div className="p-8">
                                 <h2 className="text-gray-900 text-2xl font-bold mb-6">
@@ -56,9 +55,28 @@ export default function Tools() {
                                 </ul>
                             </div>
                         )}
-            ))}
 
+                        {card.type === "image" && (
+                            <>
+                                <div className="h-40">
+                                    <img
+                                        src={card.image}
+                                        alt={card.alt}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+
+                                <div className="p-4 mt-auto">
+                                    <button className="bg-black text-white text-sm px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform">
+                                        {card.buttonText}
+                                    </button>
+                                </div>
+                            </>
+                        )}
                     </div>
+                ))}
+
+            </div>
         </section>
     );
 }
