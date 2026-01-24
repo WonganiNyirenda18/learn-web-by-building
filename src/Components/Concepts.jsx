@@ -5,8 +5,8 @@ export default function Concepts() {
         <section className="bg-white py-24 flex justify-center px-6">
             <div className="max-w-7xl w-full bg-[#EBF7F8] rounded-3xl p-12 md:p-20 flex items-center">
 
-                <div>
-                    <img
+                <div className="relative">
+                    <img className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto"
                         src={Setup} alt="Setup"
                     />
                 </div>
