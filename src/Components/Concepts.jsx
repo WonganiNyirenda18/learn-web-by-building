@@ -7,7 +7,9 @@ export default function Concepts() {
 
                 <div className="relative">
                     <img className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto"
-                        src={Setup} alt="Setup"
+                        src={Setup}
+                        alt="Setup"
+                        className="w-full h-full object-cover"
                     />
                 </div>
 
