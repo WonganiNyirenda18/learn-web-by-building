@@ -1,7 +1,15 @@
+import Setup from "../Assets/setup.jpg"
+
 export default function Concepts() {
     return (
         <section className="bg-white py-24 flex justify-center px-6">
             <div className="max-w-7xl w-full bg-[#EBF7F8] rounded-3xl p-12 md:p-20 flex items-center">
+
+                <div>
+                    <img
+                        src={Setup} alt="Setup"
+                    />
+                </div>
 
                 <h2>Relatad Concepts</h2>
 
