@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import WebElements from "./Components/WebElements";
 import Tools from "./Components/Tools";
+import Concepts from "./Components/Concepts";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <WebElements />
       <Tools />
+      <Concepts />
 
     </div>
   );
