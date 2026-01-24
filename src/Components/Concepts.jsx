@@ -1,7 +1,7 @@
 export default function Concepts() {
     return (
-        <section>
-            <div>
+        <section className="bg-white py-24">
+            <div className="max-w-7xl mx-auto px-6">
 
                 <h2>Relatad Concepts</h2>
 
