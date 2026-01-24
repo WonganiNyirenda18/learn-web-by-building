@@ -1,7 +1,7 @@
 export default function Concepts() {
     return (
-        <section className="bg-white py-24">
-            <div className="max-w-7xl mx-auto px-6">
+        <section className="bg-white py-24 flex justify-center px-6">
+            <div className="max-w-7xl w-full bg-[#EBF7F8] rounded-3xl p-12 md:p-20 flex items-center">
 
                 <h2>Relatad Concepts</h2>
 
