@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import WebElements from "./Components/WebElements";
 import Tools from "./Components/Tools";
 import Concepts from "./Components/Concepts";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <WebElements />
       <Tools />
       <Concepts />
-
+      <Footer />
     </div>
   );
 }
