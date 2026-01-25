@@ -15,9 +15,9 @@ export default function Concepts() {
                     </div>
                 </div>
 
-                <div className="space-y-6">
-                    <div>
-                        <h3> Be a jack of all trades and a master of all</h3>
+                <div className="space-y-16 space-x-16">
+                    <div className="space-y-4">
+                        <h3 className="text-2xl font-semibold text-gray-900"> Be a jack of all trades and a master of all</h3>
                         <p>
                             Only through a fundamental understanding of the core technology
                             can developers be expected to grow with technological
