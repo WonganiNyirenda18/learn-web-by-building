@@ -5,12 +5,14 @@ export default function Concepts() {
         <section className="bg-white py-24 flex justify-center px-6">
             <div className="max-w-7xl w-full bg-[#EBF7F8] rounded-3xl p-12 md:p-20 flex items-center">
 
-                <div className="relative w-[400px] h-[400px] rounded-full overflow-hidden shadow-2xl mx-auto">
-                    <img
-                        src={Setup}
-                        alt="Setup"
-                        className="w-full h-full object-cover"
-                    />
+                <div className="relative">
+                    <div className="w-[400px] h-[400px] rounded-full overflow-hidden shadow-2xl mx-auto">
+                        <img
+                            src={Setup}
+                            alt="Setup"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                 </div>
 
                 <h2>Relatad Concepts</h2>
