@@ -25,9 +25,10 @@ export default function Concepts() {
                         </p>
                     </div>
 
-                    <div>
-                        <h3>Related concepts</h3>
-                        <ul>
+                    <div className="space-y-4">
+                        <h3 className="text-2xl font-semibold text-gray-900">Related concepts</h3>
+
+                        <ul className="space-y-2 text-gray-600 text-sm">
                             <li>Information Architecture</li>
                             <li>Digital Accessibility</li>
                             <li>API's</li>
