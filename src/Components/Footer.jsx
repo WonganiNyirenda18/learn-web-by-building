@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer>
+        <footer className="bg-white py-16 border-t border-gray-50">
             <div>
                 <h3>Contacts</h3>
 
