@@ -1,7 +1,27 @@
 export default function Footer() {
     return (
         <footer>
-            <p>Footer</p>
+            <div>
+                <h3>Contacts</h3>
+
+                <div>
+                    <p>wonganinyirenda18@gmail.com</p>
+                    <p>+265 9995 358 915</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>WhatsApp</li>
+                        <li>Facebook</li>
+                        <li>Github</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>Copyright &copy; 2026.</p>
+                    <p>Created by Wongani Nyirenda</p>
+                </div>
+            </div>
         </footer>
     );
 }
