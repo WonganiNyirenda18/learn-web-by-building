@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="bg-white py-16 border-t border-gray-50">
-            <div>
+            <div className="max-w-2xl mx-auto px-6 text-center space-y-12">
                 <h3>Contacts</h3>
 
                 <div>
