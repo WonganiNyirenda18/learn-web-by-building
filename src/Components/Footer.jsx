@@ -17,7 +17,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div>
+                <div className="flex items-center justify-center gap-2 text-xs text-gray-600">
                     <p>Copyright &copy; 2026.</p>
                     <p>Created by Wongani Nyirenda</p>
                 </div>
