@@ -24,7 +24,7 @@ export default function Hero() {
                     </button>
                 </div>
 
-                <div className="relative h-[500px] w-full bg-black overflow-hidden rounded-lg">
+                <div className="relative h-[700px] w-full bg-black overflow-hidden">
                     <img
                         src={Hero1}
                         alt="Abstract Web Network"
