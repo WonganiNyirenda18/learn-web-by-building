@@ -4,7 +4,7 @@ export default function JackOfAllTrades() {
     return (
         <section className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
-                <div className="bg-[#EBF7F8] rounded-3xl p-12 md:p-20 relative overflow-hidden min-h-[500px] flex items-center">
+                <div className="bg-[#EBF7F8] p-12 md:p-20 relative overflow-hidden min-h-[500px] flex items-center">
 
                     <div className="grid md:grid-cols-2 gap-16 items-center w-full relative z-10">
 
