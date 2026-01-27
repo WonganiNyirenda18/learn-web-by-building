@@ -1,3 +1,5 @@
+import Setup from "../Assets/setup.jpg";
+
 
 export default function JackOfAllTrades() {
     return (
@@ -10,7 +12,7 @@ export default function JackOfAllTrades() {
                         <div className="relative">
                             <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto">
                                 <img
-                                    src="https://placehold.co/600x600/1a1a1a/ffffff?text=Coding+Setup"
+                                    src={Setup}
                                     alt="Workspace"
                                     className="w-full h-full object-cover"
                                 />
