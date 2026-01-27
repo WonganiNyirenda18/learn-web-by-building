@@ -1,42 +1,49 @@
-import Setup from "../Assets/setup.jpg"
 
-export default function Concepts() {
+export default function JackOfAllTrades() {
     return (
-        <section className="bg-white py-24 flex justify-center px-6">
-            <div className="max-w-7xl w-full bg-[#EBF7F8] rounded-3xl p-12 md:p-20 flex items-center">
+        <section className="py-24 bg-white">
+            <div className="max-w-7xl mx-auto px-6">
+                <div className="bg-[#EBF7F8] rounded-3xl p-12 md:p-20 relative overflow-hidden min-h-[500px] flex items-center">
 
-                <div className="relative">
-                    <div className="w-[400px] h-[400px] rounded-full overflow-hidden shadow-2xl mx-auto">
-                        <img
-                            src={Setup}
-                            alt="Setup"
-                            className="w-full h-full object-cover"
-                        />
+                    <div className="grid md:grid-cols-2 gap-16 items-center w-full relative z-10">
+
+                        <div className="relative">
+                            <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto">
+                                <img
+                                    src="https://placehold.co/600x600/1a1a1a/ffffff?text=Coding+Setup"
+                                    alt="Workspace"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
+
+
+                        <div className="space-y-16">
+                            <div className="space-y-4">
+                                <h3 className="text-xl font-bold text-gray-900">
+                                    Be a jack of all trades and a master all
+                                </h3>
+                                <p className="text-gray-600 text-sm leading-relaxed max-w-md">
+                                    Only through a fundamental understanding of the core technology
+                                    can developers be expected to grow with the technological
+                                    changes associated with web development
+                                </p>
+                            </div>
+
+                            <div className="space-y-4">
+                                <h4 className="text-xl font-bold text-gray-900">
+                                    Related Concepts
+                                </h4>
+                                <ul className="space-y-2 text-gray-500 text-sm">
+                                    <li>Information Architecture</li>
+                                    <li>Digital Accessibility</li>
+                                    <li>API's</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-
-                <div className="space-y-16 space-x-16">
-                    <div className="space-y-4">
-                        <h3 className="text-2xl font-semibold text-gray-900"> Be a jack of all trades and a master of all</h3>
-                        <p className="text-gray-600 text-sm leading-relaxed max-w-md">
-                            Only through a fundamental understanding of the core technology
-                            can developers be expected to grow with technological
-                            changes associated with web development
-                        </p>
-                    </div>
-
-                    <div className="space-y-4">
-                        <h3 className="text-2xl font-semibold text-gray-900">Related concepts</h3>
-
-                        <ul className="space-y-2 text-gray-600 text-sm">
-                            <li>Information Architecture</li>
-                            <li>Digital Accessibility</li>
-                            <li>API's</li>
-                        </ul>
-                    </div>
-                </div>
-
-
             </div>
         </section>
     );
