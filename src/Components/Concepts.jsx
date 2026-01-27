@@ -1,6 +1,5 @@
 import Setup from "../Assets/setup.jpg";
 
-
 export default function JackOfAllTrades() {
     return (
         <section className="py-24 bg-white">
@@ -10,7 +9,7 @@ export default function JackOfAllTrades() {
                     <div className="grid md:grid-cols-2 gap-16 items-center w-full relative z-10">
 
                         <div className="relative">
-                            <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto">
+                            <div className="w-[400px] h-[400px] rounded-full overflow-hidden shadow-2xl mx-auto">
                                 <img
                                     src={Setup}
                                     alt="Workspace"
