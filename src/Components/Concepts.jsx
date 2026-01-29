@@ -8,8 +8,8 @@ export default function JackOfAllTrades() {
 
                     <div className="grid md:grid-cols-2 gap-16 items-center w-full relative z-10">
 
-                        <div className="relative">
-                            <div className="w-64 h-64 md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-2xl">
+                        <div className="relative flex justify-center md:justify-start">
+                            <div className="w-64 h-64 md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-2xl max-auto">
                                 <img
                                     src={Setup}
                                     alt="Workspace"
@@ -19,7 +19,7 @@ export default function JackOfAllTrades() {
                         </div>
 
 
-                        <div className="space-y-16">
+                        <div className="space-y-10 text-center md:text-left md:space-y-16">
                             <div className="space-y-4">
                                 <h3 className="text-xl font-bold text-gray-900">
                                     Be a jack of all trades and a master all
