@@ -14,15 +14,24 @@ export default function Footer() {
                 </div>
 
                 <div className="flex justify-center gap-12">
-                    <a href="#" className="text-black hover:scale-110 transition-transform">
+                    <a href="https://github.com/WonganiNyirenda18"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:scale-110 transition-transform">
                         <GitHub fontSize="large" />
                     </a>
 
-                    <a href="#" className="text-black hover:scale-110 transition-transform">
+                    <a href="https://wa.me/265995358915"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:scale-110 transition-transform">
                         <WhatsApp fontSize="large" />
                     </a>
 
-                    <a href="#" className="text-black hover:scale-110 transition-transform">
+                    <a href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:scale-110 transition-transform">
                         <LinkedIn fontSize="large" />
                     </a>
                 </div>
