@@ -9,7 +9,7 @@ export default function JackOfAllTrades() {
                     <div className="grid md:grid-cols-2 gap-16 items-center w-full relative z-10">
 
                         <div className="relative">
-                            <div className="w-[400px] h-[400px] rounded-full overflow-hidden shadow-2xl mx-auto">
+                            <div className="w-64 h-64 md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-2xl">
                                 <img
                                     src={Setup}
                                     alt="Workspace"
