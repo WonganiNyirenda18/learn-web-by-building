@@ -10,7 +10,7 @@ export default function Footer() {
 
                 <div className="space-y-4">
                     <p className="text-gray-600 text-sm">wonganinyirenda18@gmail.com</p>
-                    <p className="text-gray-600 text-sm">+265 9995 358 915</p>
+                    <p className="text-gray-600 text-sm">+265 995 358 915</p>
                 </div>
 
                 <div className="flex justify-center gap-12">
