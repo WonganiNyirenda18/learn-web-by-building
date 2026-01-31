@@ -2,7 +2,7 @@ import Hero1 from "../assets/hero.jpg";
 
 export default function Hero() {
     return (
-        <section className="bg-white min-h-[600px] flex items-center pt-30">
+        <section className="bg-white min-h-[600px] flex items-center pt-30 py-24">
             <div className="bg-[#EBF7F8] max-w-7xl mx-auto px-6 grid md:grid-cols-2 items-center w-full">
 
                 <div className="space-y-8">
