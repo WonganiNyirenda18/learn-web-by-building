@@ -28,7 +28,7 @@ export default function Footer() {
                         <WhatsApp fontSize="large" />
                     </a>
 
-                    <a href="#"
+                    <a href="https://www.linkedin.com/in/wongani-nyirenda-068b68262?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXddI6NwSTsS2N%2FMZTWJmPw%3D%3D"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-black hover:scale-110 transition-transform">
